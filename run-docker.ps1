@@ -1,1 +1,1 @@
-docker run -p 38080:38080 myimage
+docker run -p 38080:38080 aktools-api

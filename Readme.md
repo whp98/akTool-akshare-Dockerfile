@@ -1,7 +1,17 @@
 # Dockerfile For Aktool Api
 docker文件 用于aktool
 
-## 运行方式
+## 运行方式 1
+
+```shell
+docker pull whp98/aktools-api:v0.0.1
+```
+```shell
+docker run --restart=always -d -p 38080:38080 whp98/aktools-api:v0.0.1 
+```
+
+
+## 运行方式 2
 
 下载源代码
 进入源代码目录执行命令
